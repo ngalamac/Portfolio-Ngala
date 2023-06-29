@@ -1579,20 +1579,5 @@ body {
     text-decoration: none;
   }
 
-  .mobile-menu.show {
-    display: none;
-  }
-
-  .close-menu.show {
-    display: flex;
-    justify-content: end;
-    margin-top: -12px;
-    margin-right: 33px;
-  }
-}
-
-.close-menu {
-  display: none;
-}
-
+ 
 /* End of styling for mobile popup */
