@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: end;
     margin-right: 35px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .logo {
@@ -539,7 +539,7 @@ body {
     display: flex;
     justify-content: end;
     margin-right: 35px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .logo {
@@ -1586,7 +1586,7 @@ body {
   .close-menu.show {
     display: flex;
     justify-content: end;
-    margin-top: -13px;
+    margin-top: -12px;
     margin-right: 33px;
   }
 }
@@ -1594,5 +1594,6 @@ body {
 .close-menu {
   display: none;
 }
+
 
 /* End of styling for mobile popup */

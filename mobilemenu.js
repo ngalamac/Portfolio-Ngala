@@ -20,6 +20,7 @@ const menu = {
       this.closeButton.classList.add('show');
       document.body.style.overflow = 'hidden';
       this.isMenuOpen = true;
+      this.closeMobileMenu.classList.add('hide');
     }
   },
 
