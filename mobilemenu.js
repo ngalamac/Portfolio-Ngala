@@ -1,4 +1,17 @@
+const menu = {
+  navigation: document.querySelector('.nav-links'),
+  mobileButton: document.querySelector('.mobile-menu'),
+  closeButton: document.querySelector('.close-menu'),
+  linkItems: document.querySelectorAll('.poplink'),
+  isMenuOpen: false,
 
+  toggleMenu() {
+    if (this.isMenuOpen) {
+      this.closeMobileMenu();
+    } else {
+      this.openMobileMenu();
+    }
+  },
 
   openMobileMenu() {
     if (!this.isMenuOpen) {
