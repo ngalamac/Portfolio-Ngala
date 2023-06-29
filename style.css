@@ -1579,7 +1579,7 @@ body {
     text-decoration: none;
   }
 
- .mobile-menu.show {
+  .mobile-menu.show {
     display: none;
   }
 
@@ -1594,5 +1594,5 @@ body {
 .close-menu {
   display: none;
 }
- 
+
 /* End of styling for mobile popup */
