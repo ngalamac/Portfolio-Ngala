@@ -87,6 +87,9 @@ You can deploy this project using:
 
 - GitHub: [ngalamac](https://github.com/ngalamac/Ngala-Portfolio.git)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/ngala-mac-872a65220/)
+  👤 **Albert**
+
+- GitHub: [alberkantwi](https://github.com/albertkantwi.git)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
