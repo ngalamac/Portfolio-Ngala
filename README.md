@@ -17,7 +17,7 @@
 
 This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile responsive portfolio landing page.
 
-**[Popup window]** is an HTML and CSS project
+**[Popup window]** is an HTML, CSS and Javascript project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -25,6 +25,7 @@ This webpage shows a sneak peek into the project I have developed and deployed, 
 
 - HTML
 - CSS
+- Javascript
 
 ### Key Features <a name="key-features"></a>
 - **A desktop responsive page with a minimum width of 375px**
