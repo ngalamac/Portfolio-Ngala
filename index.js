@@ -101,26 +101,7 @@ for (let i = 0; i < projectInfos.length; i += 1) {
     technologiesList += `<li>${projectInfos[i].technologies[j]}</li>`;
   }
 
-  projectCard.innerHTML = `
-      <div class="project-card">
-        <div class="project-card_image">
-          
-        </div>
-        <div class="project-card_details">
-          <h3>${projectInfos[i].title}</h3>
-          <div class="stacks">
-            <ul>
-              ${technologiesList}
-            </ul>
-          </div>
-          <button class="green-button">See project</button>
-        </div>
-      </div>
-  `;
-
-  card.appendChild(projectCard);
-}
-
+ 
 const poppedUpCard = document.querySelector('.popup-card');
 const popUpButton = document.getElementsByClassName('green-button');
 const popUpCard = document.createElement('div');
