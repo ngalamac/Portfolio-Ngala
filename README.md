@@ -13,11 +13,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Portfolio Project: Mobile Menu<a name="about-project"></a>
+# 📖 Portfolio Project: Popup Window<a name="about-project"></a>
 
 This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile responsive portfolio landing page.
 
-**[Mobile Menu Project]** is an HTML and CSS project
+**[Popup window]** is an HTML and CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
