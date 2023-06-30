@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ngala Portfolio</title>
+  <title>Ngala's Portfolio</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -135,11 +135,12 @@
     </section>
     <section class="contact-me" id="contact">
       <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-      <form action="https://formspree.io/f/mdovqgzn" method="post">
+      <form action="https://formspree.io/f/mdovqgzn" method="post" id="myForm">
         <input type="text" class='form-input' maxlength="30" placeholder="Full name" required>
-        <input type="email" class='form-input' placeholder="Email address" required>
+        <input type="email" class='form-input email-input' placeholder="Email address" required>
         <textarea name="msg" placeholder="Hey I'd like to connect to..." maxlength="500" required></textarea>
-        <button type="submit" class="green-button">Get in touch</button>
+        <p class="error-message"></p>
+        <button type="submit" class="green-buttonn">Get in touch</button>
       </form>
     </section>
     <section class="backgrounds">
@@ -182,6 +183,7 @@
       </div>
     </footer>
   </main>
+
   <script src="./index.js"></script>
 </body>
 </html>
