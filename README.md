@@ -13,11 +13,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Portfolio Project: Mobile Menu<a name="about-project"></a>
+# 📖 Portfolio Project: Contact form validation<a name="about-project"></a>
 
 This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile responsive portfolio landing page.
 
-**[Mobile Menu Project]** is an HTML and CSS project
+**[Contact form validation Project]** is an HTML and CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -25,9 +25,10 @@ This webpage shows a sneak peek into the project I have developed and deployed, 
 
 - HTML
 - CSS
+- Javascript
 
 ### Key Features <a name="key-features"></a>
-- **A desktop responsive page with a minimum width of 375px**
+- **A complete responsive page with a minimum width of 375px**
 - **Well designed figma template transformed to a real webpage through codes**
 
 ## 💻 Getting Started <a name="getting-started"></a>
