@@ -1,8 +1,8 @@
 const menu = {
-  navigation: document.querySelector('.nav-links'),
-  mobileButton: document.querySelector('.mobile-menu'),
-  closeButton: document.querySelector('.close-menu'),
-  linkItems: document.querySelectorAll('.poplink'),
+  navigation: document.getElementById('nav-linksid'),
+  mobileButton: document.getElementById('mobile-menuid'),
+  closeButton: document.getElementById('close-menuid'),
+  linkItems: document.querySelectorAll('.poplinkid'),
   isMenuOpen: false,
 
   toggleMenu() {
@@ -15,21 +15,21 @@ const menu = {
 
   openMobileMenu() {
     if (!this.isMenuOpen) {
-      this.navigation.classList.add('show');
-      this.mobileButton.classList.add('hide');
-      this.closeButton.classList.add('show');
-      document.body.style.overflow = 'hidden';
+      this.navigation.className += ' active';
+      this.mobileButton.className += ' inactive';
+      this.closeButton.className += ' active';
+      document.body.style.overflow = 'visible';
       this.isMenuOpen = true;
-      this.closeMobileMenu.classList.add('hide');
+      this.closeMobileMenu.className += ' inactive';
     }
   },
 
   closeMobileMenu() {
     if (this.isMenuOpen) {
-      this.navigation.classList.remove('show');
-      this.mobileButton.classList.remove('hide');
-      this.closeButton.classList.remove('show');
-      document.body.style.overflow = 'auto';
+      this.navigation.className = this.navigation.className.replace(' active', '');
+      this.mobileButton.className = this.mobileButton.className.replace(' inactive', '');
+      this.closeButton.className = this.closeButton.className.replace(' active', '');
+      document.body.style.overflow = 'visible';
       this.isMenuOpen = false;
     }
   },

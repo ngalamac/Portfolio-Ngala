@@ -1554,7 +1554,7 @@ body {
 
 /* Mobile menu styles */
 @media only screen and (max-width: 1024px) {
-  .nav-links.show {
+  .nav-links.active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1565,13 +1565,13 @@ body {
     overflow-y: scroll;
   }
 
-  .nav-links.show ul {
+  .nav-links.active ul {
     list-style: none;
     display: grid;
     gap: 39px;
   }
 
-  .nav-links.show .poplink {
+  .nav-links.active .poplink {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
@@ -1579,11 +1579,11 @@ body {
     text-decoration: none;
   }
 
-  .mobile-menu.show {
+  .mobile-menu.active {
     display: none;
   }
 
-  .close-menu.show {
+  .close-menu.active {
     display: flex;
     justify-content: end;
     margin-top: -12px;
