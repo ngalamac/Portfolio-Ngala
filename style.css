@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins+Sans-serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,6 @@
 body {
   padding: o;
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   display: grid;
   height: 100vh;
@@ -135,12 +134,11 @@ body {
     margin-bottom: 35px;
     margin-left: 20px;
     margin-right: 20px;
-
     font-size: 20px;
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
 
   .contact-section {
@@ -486,7 +484,7 @@ line-height: 32px;
     padding-right: 1.6rem;
   }
 
-  textarea::placeholder{
+  textarea::placeholder {
     padding-left: 1rem;
   }
 
@@ -977,7 +975,7 @@ line-height: 32px;
     padding-right: 1.6rem;
   }
 
-  textarea::placeholder{
+  textarea::placeholder {
     padding-left: 1rem;
   }
 
@@ -1035,13 +1033,12 @@ line-height: 32px;
   .abt p {
     display: grid;
     place-items: center;
-    font-size: 22px;
     text-align: center;
     margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -1071,7 +1068,7 @@ line-height: 32px;
 
   .nav-links ul li a {
     text-decoration: none;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
@@ -1136,8 +1133,8 @@ line-height: 32px;
     flex-direction: row;
     list-style: none;
     gap: 20px;
-    
   }
+
   .social-links ul li img {
     background-color: transparent;
   }
@@ -1493,7 +1490,7 @@ line-height: 32px;
     padding-right: 1.6rem;
   }
 
-  textarea::placeholder{
+  textarea::placeholder {
     padding-left: 1rem;
   }
 
@@ -1547,13 +1544,12 @@ line-height: 32px;
   .abt p {
     display: grid;
     place-items: center;
-    font-size: 21px;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 253px;
     margin-right: 253px;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -1586,9 +1582,8 @@ line-height: 32px;
   }
 
   footer {
-   
     border-top: 0.25px solid grey;
     padding: 20px;
-height: 0.5px;
+    height: 0.5px;
   }
 }
