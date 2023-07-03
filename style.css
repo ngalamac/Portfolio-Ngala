@@ -12,6 +12,7 @@ body {
   text-decoration: none;
   display: grid;
   height: 100vh;
+  background-color: #f7f7f7;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -77,6 +78,9 @@ body {
     flex-direction: row;
     list-style: none;
     gap: 5px;
+  }
+  .social-links {
+    background-color: #f7f7f7;
   }
 
   .scroll {
@@ -450,8 +454,8 @@ body {
     overflow: auto;
     box-sizing: border-box;
     margin: 0;
-    padding: 0.5rem;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
@@ -474,6 +478,11 @@ body {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
+
+  textarea::placeholder {
+    padding-left: 1.5rem;
+  }
+  
 
   .contact-form button {
     padding: 16px;
@@ -591,6 +600,10 @@ body {
     list-style: none;
     gap: 5px;
   }
+}
+.social-links {
+  background-color: #f7f7f7;
+}
 
   .scroll {
     display: flex;
@@ -930,11 +943,15 @@ body {
     overflow: auto;
     box-sizing: border-box;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0;
     font-family: Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: #333;
+  }
+
+  textarea::placeholder {
+    padding-left: 1.5rem;
   }
 
   .mail {
