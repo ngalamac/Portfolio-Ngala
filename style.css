@@ -1600,9 +1600,8 @@ body {
 
 .popup {
   position: fixed;
-  top: 10px;
-  right: 10px
-  left: 10px;
+  top: 0;
+  left: 0;
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.8);
