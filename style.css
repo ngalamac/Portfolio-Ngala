@@ -14,6 +14,7 @@ body {
   display: grid;
   height: 100vh;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -42,6 +43,7 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
+    background-color: transparent;
   }
 
   .home {
@@ -78,7 +80,7 @@ body {
     justify-content: center;
     flex-direction: row;
     list-style: none;
-    gap: 5px;
+    gap: 20px;
   }
 
   .scroll {
@@ -113,6 +115,7 @@ body {
     background-position-y: 100%, -40px;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: transparent;
   }
 
   .abt h2 {
@@ -128,11 +131,16 @@ body {
   .abt p {
     display: grid;
     place-items: center;
-    font-size: 22px;
     text-align: center;
     margin-bottom: 35px;
     margin-left: 20px;
     margin-right: 20px;
+
+    font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
   }
 
   .contact-section {
@@ -141,6 +149,7 @@ body {
     background-position: right bottom;
     position: relative;
     padding-bottom: 2px;
+    background-color: transparent;
   }
 
   .underline {
@@ -477,6 +486,10 @@ body {
     padding-right: 1.6rem;
   }
 
+  textarea::placeholder{
+    padding-left: 1rem;
+  }
+
   .contact-form button {
     padding: 16px;
     border: none;
@@ -557,6 +570,7 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
+    background-color: transparent;
   }
 
   .home {
@@ -592,7 +606,7 @@ body {
     justify-content: center;
     flex-direction: row;
     list-style: none;
-    gap: 5px;
+    gap: 20px;
   }
 
   .scroll {
@@ -900,6 +914,7 @@ body {
     background-position: right bottom;
     position: relative;
     padding-bottom: 2px;
+    background-color: transparent;
   }
 
   .contact-form form {
@@ -962,6 +977,10 @@ body {
     padding-right: 1.6rem;
   }
 
+  textarea::placeholder{
+    padding-left: 1rem;
+  }
+
   .contact-form button {
     padding: 16px;
     border: none;
@@ -1000,6 +1019,7 @@ body {
     background-position-y: 100%, -40px;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: transparent;
   }
 
   .abt h2 {
@@ -1020,6 +1040,11 @@ body {
     margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
 
   .abt .button {
@@ -1074,6 +1099,7 @@ body {
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 100px;
+    background-color: transparent;
   }
 
   .intro {
@@ -1109,7 +1135,11 @@ body {
     justify-content: center;
     flex-direction: row;
     list-style: none;
-    gap: 5px;
+    gap: 20px;
+    
+  }
+  .social-links ul li img {
+    background-color: transparent;
   }
 
   .scroll {
@@ -1428,10 +1458,6 @@ body {
     padding: 0;
   }
 
-  .inpp {
-    display: none;
-  }
-
   .side-side {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1465,6 +1491,10 @@ body {
     padding-bottom: 1.5rem;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+  }
+
+  textarea::placeholder{
+    padding-left: 1rem;
   }
 
   .contact-form button {
@@ -1501,6 +1531,7 @@ body {
     background-position-y: 75%, -50px;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: #f7f7f7;
   }
 
   .abt h2 {
@@ -1521,6 +1552,11 @@ body {
     margin-bottom: 10px;
     margin-left: 253px;
     margin-right: 253px;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
 
   .abt .button {
@@ -1546,5 +1582,13 @@ body {
     background-position-y: 200px, 370px, 100px;
     background-position-x: 0, 40%, 100%;
     padding-bottom: 100px;
+    background-color: transparent;
+  }
+
+  footer {
+   
+    border-top: 0.25px solid grey;
+    padding: 20px;
+height: 0.5px;
   }
 }
