@@ -11,14 +11,17 @@
     <header>
         <nav>
             <div class="logo">Ngala</div>
-            <div class="mobile-menu">
-                <img src="assets/images/menu-button.png" alt="mobile-menu icon">
+            <div class="mobile-menu" id="mobile-menuid">
+                <img src="assets/images/menu-button.png" alt="mobile-menu icon" >
             </div>
-            <div class="nav-links">
+            <div class="close-menu" id="close-menuid">
+                <img src="assets/images/ic_cross.jpg" alt="mobile menu closing icon">
+            </div>
+            <div class="nav-links" id="nav-linksid">
                 <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#portfolio" class="poplink" id="poplinkid">Portfolio</a></li>
+                <li><a href="#about" class="poplink" id="poplinkid">About</a></li>
+                <li><a href="#contact" class="poplink" id="poplinkid">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -27,7 +30,7 @@
     <section class="homepage">
         <div class="home">
     <div class="intro">
-        <h1>Hey there.<br>
+        <h1>Hey there.
         I'm Ngala.<br>
         <span>I'm a software developer</span>
         </h1>
@@ -53,10 +56,10 @@
                 </li>
             </ul>
         </div>
-        <div class="scroll"><img src="assets/images/scroll.png"></div>
+        <div class="scroll"><img src="assets/images/scroll.png" alt="Scroller icon"></div>
     </div>
     </section>
-        <section class="projects">
+        <section class="projects" id="portfolio">
             <h2>My Recent Works</h2>
             <div class="underline"></div>
             <div class="cards">
@@ -81,7 +84,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
                     <div class="cardimage">
                         <img src="">
@@ -193,7 +195,7 @@
                 </div>
             </div>
         </section>
-        <section class="abt">  
+        <section class="abt" id="about">  
 <h2>About me</h2>
 <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
     don’t hesitate to contact me.</p>
@@ -202,7 +204,7 @@
         <section class="techs">
             <div class="techcard">
                 <div class="techimg">
-                    <img src="assets/images/languages.png">
+                    <img src="assets/images/languages.png" alt="Languages Icon">
                 </div>
                 <div class="techtitle">Languages</div>
                 <div class="techlist">
@@ -216,7 +218,7 @@
             </div>
             <div class="techcard">
                 <div class="techimg">
-                    <img src="assets/images/frameworks.png">
+                    <img src="assets/images/frameworks.png" alt="Frameworks icon">
                 </div>
                 <div class="techtitle">Frameworks</div>
                 <div class="techlist">
@@ -231,7 +233,7 @@
             </div>
             <div class="techcard">
                 <div class="techimg">
-                    <img src="assets/images/skills.png">
+                    <img src="assets/images/skills.png" alt="Skills icon">
                 </div>
                 <div class="techtitle">Skills</div>
                 <div class="techlist">
@@ -246,19 +248,27 @@
                 </div>
             </div>
         </section>
+<section class="foot">
+        <div class="bot-grid-container">
         <div class="interest">
             <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             </div>
-        <section class="contact-section">
-            <div class="contact-form">
+        <div class="contact-section">
+            <div class="contact-form" id="contact">
             <form action="https://formspree.io/f/mdovqgzn" method="post">
-                <input type="text" placeholder="Full name" name="fullname">
+                <input type="text" placeholder="Full name" name="fullname" required maxlength="30" class="inpp">
+                <div class="side-side">
+                    <input type="text" placeholder="First name" name="firstname" required maxlength="30" class="inp">
+                <input type="text" placeholder="Last name" name="lastname" required maxlength="30" class="inp">
+                </div>
                 <input type="email" placeholder="Email address" name="email">
-                <textarea placeholder="Hey I'd like to connect to.." name="message"></textarea>
+                <textarea placeholder="Hey I'd like to connect to.." name="message" required maxlength="500"></textarea>
                 <button type="submit" class="button">Get in touch</button>
             </form>
             </div>
             <p class="mail">myemailhere@email.com</p>
+        </div>
+        </div>
         </section>
        <footer>   
         <div class="social-links">
@@ -283,5 +293,6 @@
         <div class="bottomline"></div>
        </footer>
 </main>
+<script src="application.js"></script>
 </body>
 </html>

@@ -13,11 +13,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Portfolio Project: Desktop version<a name="about-project"></a>
+# 📖 Portfolio Project: Mobile Menu<a name="about-project"></a>
 
 This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile responsive portfolio landing page.
 
-**[Desktop Portfolio Project]** is an HTML and CSS project
+**[Mobile Menu Project]** is an HTML and CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,8 +46,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Ngala-Portfolio
-  git clone https://github.com/ngalamac/Ngala-Portfolio.git
+  cd Portfolio-Ngala
+  git clone https://github.com/ngalamac/Portfolio-Ngala.git
 ```
 
 ### Install
@@ -55,7 +55,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Ngala-Portfolio
+  cd Portfolio-Ngala
   npm install
 ```
 
@@ -85,8 +85,12 @@ You can deploy this project using:
 
 👤 **Ngala Mac**
 
-- GitHub: [ngalamac](https://github.com/ngalamac/Ngala-Portfolio.git)
+- GitHub: [ngalamac](https://github.com/ngalamac)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/ngala-mac-872a65220/)
+
+    👤 **Albert**
+
+- GitHub: [alberkantwi](https://github.com/albertkantwi.git)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
