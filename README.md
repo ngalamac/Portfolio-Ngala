@@ -47,7 +47,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd Ngala-Portfolio
-  git clone https://github.com/ngalamac/Ngala-Portfolio.git
+  git clone https://github.com/ngalamac/Portfolio-Ngala.git
 ```
 
 ### Install
@@ -55,7 +55,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Ngala-Portfolio
+  cd Portfolio-Ngala
   npm install
 ```
 
@@ -85,7 +85,7 @@ You can deploy this project using:
 
 👤 **Ngala Mac**
 
-- GitHub: [ngalamac](https://github.com/ngalamac/Ngala-Portfolio.git)
+- GitHub: [ngalamac](https://github.com/ngalamac)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/ngala-mac-872a65220/)
 
 ## 🔭 Future Features <a name="future-features"></a>
